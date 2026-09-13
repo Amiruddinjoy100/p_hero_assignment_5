@@ -54,9 +54,7 @@ First, clone the repository:
 ```bash
 git clone https://github.com/Amiruddinjoy100/p_hero_assignment_5.git
 
----
-
-## 📂 Project Structure
+## 📂 Project Architecture & Directory Structure
 
 ```text
 p_hero_assignment_5/
