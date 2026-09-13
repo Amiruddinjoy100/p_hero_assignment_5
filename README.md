@@ -7,9 +7,9 @@ A React project where users can explore different technologies and create their 
 ## 📋 Table of Contents
 
 - [Overview & Features](#-overview--features)
-- [Tech Stack](#-tech-stack)
+- [Tech Stack](#️-tech-stack)
 - [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
+- [Project Architecture & Directory Structure](#-project-architecture--directory-structure)
 - [React Conceptual Questions & Answers](#-react-conceptual-questions--answers)
 
 ---
@@ -53,6 +53,24 @@ First, clone the repository:
 
 ```bash
 git clone https://github.com/Amiruddinjoy100/p_hero_assignment_5.git
+```
+
+Then move into the project folder and install dependencies:
+
+```bash
+cd p_hero_assignment_5
+npm install
+```
+
+Finally, start the development server:
+
+```bash
+npm run dev
+```
+
+The app should now be running at the local URL printed in your terminal (typically `http://localhost:5173`).
+
+---
 
 ## 📂 Project Architecture & Directory Structure
 
@@ -67,6 +85,7 @@ p_hero_assignment_5/
 │   │   ├── Hero.tsx            # Hero banner display
 │   │   ├── Navbar.tsx          # Navigation header bar
 │   │   ├── StackSidebar.tsx    # Sidebar displaying selected stack items
+│   │   ├── StackList.tsx       # Renders the list of items inside the stack sidebar
 │   │   └── TechCard.tsx        # Individual technology item display card
 │   ├── types/                  # TypeScript interfaces and types
 │   │   └── technology.ts       # Technology interface definition
@@ -77,6 +96,8 @@ p_hero_assignment_5/
 ├── tsconfig.json               # TypeScript configuration
 ├── vite.config.ts              # Vite bundle builder configuration
 └── README.md                   # Project documentation
+```
+
 ---
 
 ## ❓ React Conceptual Questions & Answers
