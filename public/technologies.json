@@ -1,0 +1,62 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "category": "Frontend",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "badge": "Popular",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "description": "Strongly typed programming language that builds on JavaScript, giving you better tooling.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Essential",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "description": "JavaScript runtime built on Chrome's V8 JavaScript engine for backend services.",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "badge": "Core",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "Accelerate how you build, share, and run applications with lightweight containers.",
+    "category": "DevOps",
+    "difficulty": "Advanced",
+    "rating": 4.8,
+    "badge": "Standard",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build any design.",
+    "category": "Frontend",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "badge": "Trending",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "Versatile programming language widely used for web backends, data science, and AI.",
+    "category": "Language",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "badge": "Top Rated",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  }
+]
