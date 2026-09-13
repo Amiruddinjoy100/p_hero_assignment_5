@@ -53,3 +53,29 @@ First, clone the repository:
 
 ```bash
 git clone https://github.com/Amiruddinjoy100/p_hero_assignment_5.git
+
+---
+
+## 📂 Project Structure
+
+```text
+p_hero_assignment_5/
+├── public/
+│   └── technologies.json       # Mock JSON dataset containing tech stack entities
+├── src/
+│   ├── assets/                 # Static visual assets (banner-stack.png, hero graphics)
+│   ├── components/             # Modular React UI components
+│   │   ├── Footer.tsx          # Application footer section
+│   │   ├── Hero.tsx            # Hero banner display
+│   │   ├── Navbar.tsx          # Navigation header bar
+│   │   ├── StackSidebar.tsx    # Sidebar displaying selected stack items
+│   │   └── TechCard.tsx        # Individual technology item display card
+│   ├── types/                  # TypeScript interfaces and types
+│   │   └── technology.ts       # Technology interface definition
+│   ├── App.tsx                 # Core state container and data controller
+│   ├── main.tsx                # Application root entry point
+│   └── index.css               # Global styles and Tailwind CSS v4 directives
+├── package.json                # Dependencies and npm script runner
+├── tsconfig.json               # TypeScript configuration
+├── vite.config.ts              # Vite bundle builder configuration
+└── README.md                   # Project documentation
