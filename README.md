@@ -107,3 +107,4 @@ Conditional rendering is displaying different UI elements based on state values 
 ) : (
   <StackList items={stack} onRemove={onRemove} />
 )}
+```
