@@ -77,3 +77,33 @@ p_hero_assignment_5/
 ├── tsconfig.json               # TypeScript configuration
 ├── vite.config.ts              # Vite bundle builder configuration
 └── README.md                   # Project documentation
+---
+
+## ❓ React Conceptual Questions & Answers
+
+### 1. What is JSX, and why is it used in React?
+JSX (JavaScript XML) is a syntax extension that lets you write HTML-like markup directly inside JavaScript/TypeScript files. React uses JSX because it keeps component UI structure and display logic together, making components far easier to read and maintain.
+
+### 2. What is the difference between props and state?
+- **Props (Properties):** Read-only data passed down from a parent component to a child component. A child component cannot modify its props.
+- **State:** Local, mutable data managed internally by a component. When state changes, React automatically re-renders the component to update the UI.
+
+### 3. What does the `useState` hook do, and where did you use it in this project?
+The `useState` hook allows functional components to declare and update local reactive state. In this project, `useState` is used inside `App.tsx` to hold the list of technologies (`technologies`), the user's selected stack (`stack`), and the loading status (`loading`).
+
+### 4. What does the `useEffect` hook do, and why did you need it to load the JSON data?
+The `useEffect` hook handles side effects in components, such as data fetching or direct DOM manipulation. It was used here to run an asynchronous `fetch()` request once when the app mounts to load data from `/technologies.json`.
+
+### 5. Why does every item in a `.map()` list need a unique `key` prop?
+The `key` prop gives React a unique identifier for every element rendered in a dynamic list. This helps React's Virtual DOM diffing engine track additions, removals, and reorders efficiently without re-rendering the whole list.
+
+### 6. What is conditional rendering? Show one place you used it.
+Conditional rendering is displaying different UI elements based on state values or conditional checks.
+
+*Example from `StackSidebar.tsx`:*
+```tsx
+{stack.length === 0 ? (
+  <p className="text-slate-500 text-center py-6">Your stack is currently empty</p>
+) : (
+  <StackList items="{stack}" onRemove="{onRemove}"/>
+)}
