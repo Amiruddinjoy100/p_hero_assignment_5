@@ -105,5 +105,5 @@ Conditional rendering is displaying different UI elements based on state values 
 {stack.length === 0 ? (
   <p className="text-slate-500 text-center py-6">Your stack is currently empty</p>
 ) : (
-  <StackList items="{stack}" onRemove="{onRemove}"/>
+  <StackList items={stack} onRemove={onRemove} />
 )}
